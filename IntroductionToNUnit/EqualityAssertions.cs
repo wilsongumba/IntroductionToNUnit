@@ -5,6 +5,13 @@
     {
 
         [Test]
+        public void ThatIsEqualTo()
+        {
+            //constraint example
+            Assert.That("actual", Is.EqualTo("expected "));
+        }
+
+        [Test]
         public void AreEqual()
         {
             Assert.AreEqual("expected ", "actual");
